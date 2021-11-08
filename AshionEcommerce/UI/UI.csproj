@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44391</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -88,11 +88,122 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\User\ashion-master\blog-details.html" />
+    <Content Include="App_Themes\User\ashion-master\blog.html" />
+    <Content Include="App_Themes\User\ashion-master\checkout.html" />
+    <Content Include="App_Themes\User\ashion-master\contact.html" />
+    <Content Include="App_Themes\User\ashion-master\css\bootstrap.min.css" />
+    <Content Include="App_Themes\User\ashion-master\css\elegant-icons.css" />
+    <Content Include="App_Themes\User\ashion-master\css\font-awesome.min.css" />
+    <Content Include="App_Themes\User\ashion-master\css\jquery-ui.min.css" />
+    <Content Include="App_Themes\User\ashion-master\css\magnific-popup.css" />
+    <Content Include="App_Themes\User\ashion-master\css\owl.carousel.min.css" />
+    <Content Include="App_Themes\User\ashion-master\css\slicknav.min.css" />
+    <Content Include="App_Themes\User\ashion-master\css\style.css" />
+    <Content Include="App_Themes\User\ashion-master\fonts\ElegantIcons.svg" />
+    <Content Include="App_Themes\User\ashion-master\fonts\fontawesome-webfont.svg" />
+    <Content Include="App_Themes\User\ashion-master\img\banner\banner-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\banner\banner-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\banner\banner-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-10.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-5.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-6.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-7.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-8.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\blog-9.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\details\blog-details.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\details\comment-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\details\comment-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\details\comment-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\sidebar\fp-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\sidebar\fp-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\blog\sidebar\fp-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\categories\category-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\categories\category-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\categories\category-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\categories\category-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\categories\category-5.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\discount.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\instagram\insta-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\instagram\insta-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\instagram\insta-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\instagram\insta-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\instagram\insta-5.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\instagram\insta-6.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\logo.png" />
+    <Content Include="App_Themes\User\ashion-master\img\payment\payment-1.png" />
+    <Content Include="App_Themes\User\ashion-master\img\payment\payment-2.png" />
+    <Content Include="App_Themes\User\ashion-master\img\payment\payment-3.png" />
+    <Content Include="App_Themes\User\ashion-master\img\payment\payment-4.png" />
+    <Content Include="App_Themes\User\ashion-master\img\payment\payment-5.png" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\product-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\product-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\product-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\product-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\thumb-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\thumb-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\thumb-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\details\thumb-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-5.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-6.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-7.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\product-8.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\related\rp-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\related\rp-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\related\rp-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\product\related\rp-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop-cart\cp-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop-cart\cp-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop-cart\cp-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop-cart\cp-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-4.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-5.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-6.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-7.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-8.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\shop\shop-9.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\bs-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\bs-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\bs-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\f-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\f-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\f-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\ht-1.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\ht-2.jpg" />
+    <Content Include="App_Themes\User\ashion-master\img\trend\ht-3.jpg" />
+    <Content Include="App_Themes\User\ashion-master\index.html" />
+    <Content Include="App_Themes\User\ashion-master\js\bootstrap.min.js" />
+    <Content Include="App_Themes\User\ashion-master\js\jquery-3.3.1.min.js" />
+    <Content Include="App_Themes\User\ashion-master\js\jquery-ui.min.js" />
+    <Content Include="App_Themes\User\ashion-master\js\jquery.countdown.min.js" />
+    <Content Include="App_Themes\User\ashion-master\js\jquery.magnific-popup.min.js" />
+    <Content Include="App_Themes\User\ashion-master\js\jquery.nicescroll.min.js" />
+    <Content Include="App_Themes\User\ashion-master\js\jquery.slicknav.js" />
+    <Content Include="App_Themes\User\ashion-master\js\main.js" />
+    <Content Include="App_Themes\User\ashion-master\js\mixitup.min.js" />
+    <Content Include="App_Themes\User\ashion-master\js\owl.carousel.min.js" />
+    <Content Include="App_Themes\User\ashion-master\main.html" />
+    <Content Include="App_Themes\User\ashion-master\product-details.html" />
+    <Content Include="App_Themes\User\ashion-master\readme.txt" />
+    <Content Include="App_Themes\User\ashion-master\shop-cart.html" />
+    <Content Include="App_Themes\User\ashion-master\shop.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Dashboard\DashboardAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -100,6 +211,42 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="App_Themes\User\ashion-master\.DS_Store" />
+    <Content Include="App_Themes\User\ashion-master\fonts\ElegantIcons.eot" />
+    <Content Include="App_Themes\User\ashion-master\fonts\ElegantIcons.ttf" />
+    <Content Include="App_Themes\User\ashion-master\fonts\ElegantIcons.woff" />
+    <Content Include="App_Themes\User\ashion-master\fonts\fontawesome-webfont.eot" />
+    <Content Include="App_Themes\User\ashion-master\fonts\fontawesome-webfont.ttf" />
+    <Content Include="App_Themes\User\ashion-master\fonts\fontawesome-webfont.woff" />
+    <Content Include="App_Themes\User\ashion-master\fonts\fontawesome-webfont.woff2" />
+    <Content Include="App_Themes\User\ashion-master\fonts\FontAwesome.otf" />
+    <Content Include="App_Themes\User\ashion-master\sass\style.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_base.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_blog-details.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_blog-sidebar.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_blog.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_breadcrumb.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_categories.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_checkout.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_contact.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_footer.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_header.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_home-page.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_mixins.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_product-details.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_product.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_responsive.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_shop-cart.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_shop.scss" />
+    <Content Include="App_Themes\User\ashion-master\sass\_variable.scss" />
+    <Content Include="App_Themes\User\ashion-master\Source\barfiller-master.zip" />
+    <Content Include="App_Themes\User\ashion-master\Source\bootstrap-4.2.1-dist.zip" />
+    <Content Include="App_Themes\User\ashion-master\Source\font-awesome-4.7.0.zip" />
+    <Content Include="App_Themes\User\ashion-master\Source\jQuery.countdown-master.zip" />
+    <Content Include="App_Themes\User\ashion-master\Source\Magnific-Popup-master.zip" />
+    <Content Include="App_Themes\User\ashion-master\Source\OwlCarousel2-2.3.4.zip" />
+    <Content Include="App_Themes\User\ashion-master\Source\SlickNav-master.zip" />
+    <Content Include="Areas\Dashboard\Views\web.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -110,6 +257,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\Dashboard\" />
+    <Folder Include="Areas\Dashboard\Controllers\" />
+    <Folder Include="Areas\Dashboard\Data\" />
+    <Folder Include="Areas\Dashboard\Views\Shared\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
@@ -128,7 +279,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54187</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54187/</IISUrl>
+          <IISUrl>https://localhost:44391/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
