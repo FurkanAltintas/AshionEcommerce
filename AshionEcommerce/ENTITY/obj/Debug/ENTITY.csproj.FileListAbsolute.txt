@@ -1,0 +1,6 @@
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.pdb

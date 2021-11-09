@@ -47,3 +47,16 @@ C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\obj\Debug\UI.
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\obj\Debug\UI.dll
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\obj\Debug\UI.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\EntityFramework.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\EntityFramework.SqlServer.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\EntityFramework.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\EntityFramework.SqlServer.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\BLL.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\DAL.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\ENTITY.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\FluentValidation.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\BLL.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\DAL.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\DAL.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\ENTITY.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\FluentValidation.xml

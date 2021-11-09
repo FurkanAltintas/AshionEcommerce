@@ -1,0 +1,16 @@
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\BLL.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\BLL.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\DAL.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\ENTITY.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\FluentValidation.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\EntityFramework.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\DAL.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\DAL.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\ENTITY.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\FluentValidation.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\EntityFramework.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.pdb

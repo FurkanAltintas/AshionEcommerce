@@ -1,0 +1,14 @@
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\DAL.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\DAL.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\DAL.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\ENTITY.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\EntityFramework.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\ENTITY.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\EntityFramework.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.pdb
