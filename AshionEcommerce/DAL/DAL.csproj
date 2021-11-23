@@ -51,26 +51,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IGenericDal.cs" />
+    <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\ICollectionDal.cs" />
+    <Compile Include="Abstract\IColorDal.cs" />
+    <Compile Include="Abstract\ICommentDal.cs" />
+    <Compile Include="Abstract\IEmployeeDal.cs" />
+    <Compile Include="Abstract\IGenderDal.cs" />
     <Compile Include="Abstract\IBrandDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Abstract\IProductSizeDal.cs" />
+    <Compile Include="Abstract\IServiceDal.cs" />
+    <Compile Include="Abstract\ISizeDal.cs" />
+    <Compile Include="Abstract\IUserDal.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="EntityFramework\EfBrandRepository.cs" />
+    <Compile Include="EntityFramework\EfCategoryRepository.cs" />
+    <Compile Include="EntityFramework\EfCollectionRepository.cs" />
+    <Compile Include="EntityFramework\EfColorRepository.cs" />
+    <Compile Include="EntityFramework\EfCommentRepository.cs" />
+    <Compile Include="EntityFramework\EfEmployeeRepository.cs" />
+    <Compile Include="EntityFramework\EfGenderRepository.cs" />
     <Compile Include="EntityFramework\EfProductRepository.cs" />
+    <Compile Include="EntityFramework\EfProductSizeRepository.cs" />
+    <Compile Include="EntityFramework\EfQueryable.cs" />
+    <Compile Include="EntityFramework\EfServiceRepository.cs" />
+    <Compile Include="EntityFramework\EfSizeRepository.cs" />
+    <Compile Include="EntityFramework\EfUserRepository.cs" />
+    <Compile Include="Mappings\EmployeeMap.cs" />
+    <Compile Include="Mappings\BrandMap.cs" />
+    <Compile Include="Migrations\202111131827575_MissingXXX.cs" />
+    <Compile Include="Migrations\202111131827575_MissingXXX.designer.cs">
+      <DependentUpon>202111131827575_MissingXXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111131840275_Test.cs" />
+    <Compile Include="Migrations\202111131840275_Test.designer.cs">
+      <DependentUpon>202111131840275_Test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\CORE\CORE.csproj">
+      <Project>{A5FCE986-A7A4-4AB5-9251-DEFA091F9D75}</Project>
+      <Name>CORE</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ENTITY\ENTITY.csproj">
       <Project>{5c3b13b9-dc70-41d4-8e76-1eba1fde3e3b}</Project>
       <Name>ENTITY</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202111131827575_MissingXXX.resx">
+      <DependentUpon>202111131827575_MissingXXX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111131840275_Test.resx">
+      <DependentUpon>202111131840275_Test.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
