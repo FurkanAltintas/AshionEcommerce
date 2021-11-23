@@ -1,0 +1,27 @@
+﻿@model ENTITY.Concrete.Comment
+
+@using (Html.BeginForm("Add", "Comment", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.HiddenFor(x => x.ProductId, new { @class = "form-control", placeholder = "Ad Soyad" })
+    </div>
+
+    <div class="form-group">
+        @Html.TextBoxFor(x => x.FullName, new { @class = "form-control", placeholder = "Ad Soyad" })
+    </div>
+    <div class="form-group">
+
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "Email Adresiniz" })
+    </div>
+    <div class="form-group">
+
+        @Html.TextBoxFor(x => x.Subject, new { @class = "form-control", placeholder = "Konu" })
+    </div>
+    <div class="form-group">
+
+        @Html.TextAreaFor(x => x.Message, 10, 0, new { @class = "form-control", placeholder = "Yorumunuz" })
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-outline-success">Yorumu Gönder</button>
+    </div>
+}
