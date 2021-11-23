@@ -1,0 +1,23 @@
+﻿@model List<ENTITY.Concrete.Gender>
+
+<div class="sidebar__categories">
+    <div class="section-title">
+        <h4>Cinsiyet</h4>
+    </div>
+    <div class="categories__accordion">
+        <div class="accordion" id="accordionExample">
+            <div class="sidebar__sizes">
+                <div class="size__list">
+                    @foreach (var item in Model)
+                    {
+                        <label for="@item.Name">
+                            @item.Name
+                            <input type="checkbox" id="@item.Name" value="@item.Name" name="cinsiyet">
+                            <span class="checkmark"></span>
+                        </label>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
