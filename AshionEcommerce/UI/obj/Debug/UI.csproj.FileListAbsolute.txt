@@ -60,3 +60,9 @@ C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\DAL.pdb
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\DAL.dll.config
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\ENTITY.pdb
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\FluentValidation.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\CORE.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\CORE.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\CORE.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\Ninject.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\BLL.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\UI\bin\Ninject.xml
