@@ -14,9 +14,33 @@ namespace UI
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "LoginEmployee",
+                url: "u/auth-login",
+                defaults: new { controller = "Account", action = "LoginEmployee" }
+            );
+
+            routes.MapRoute(
+                name: "AccountReg",
+                url: "register",
+                defaults: new { controller = "Account", action = "Register" }
+            );
+
+            routes.MapRoute(
+                name: "AccountLog",
+                url: "login",
+                defaults: new { controller = "Account", action = "Login" }
+            );
+
+            routes.MapRoute(
+                name: "Product",
+                url: "p/{product}-{id}",
+                defaults: new { controller = "Product", action = "Detail", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 name: "Brand",
-                url: "{Brand}",
-                defaults: new { controller = "Brand", action = "Index", String = "" }
+                url: "b/{brand}",
+                defaults: new { controller = "Product", action = "Brand", String = "" }
             );
 
             routes.MapRoute(
