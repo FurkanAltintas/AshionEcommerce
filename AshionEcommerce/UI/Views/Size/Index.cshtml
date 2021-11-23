@@ -1,0 +1,17 @@
+﻿@model List<ENTITY.Concrete.Size>
+
+<div class="sidebar__sizes">
+    <div class="section-title">
+        <h4>Beden</h4>
+    </div>
+    <div class="size__list">
+        @foreach (var item in Model)
+        {
+            <label for="@item.Name">
+                @item.Name
+                <input type="checkbox" id="@item.Name">
+                <span class="checkmark"></span>
+            </label>
+        }
+    </div>
+</div>
