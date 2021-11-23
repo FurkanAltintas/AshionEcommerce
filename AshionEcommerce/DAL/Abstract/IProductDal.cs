@@ -1,4 +1,5 @@
-﻿using ENTITY.Concrete;
+﻿using CORE.DataAccess;
+using ENTITY.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,14 @@ using System.Threading.Tasks;
 
 namespace DAL.Abstract
 {
-    public interface IProductDal : IGenericDal<Product>
+    public interface IProductDal : IEntityRepository<Product>
     {
+        List<Product> ListBrand();
+
+        List<Product> ListGender();
+
+        Product RelatedProducts(int id);
+
+        Product GetBrand(int id);
     }
 }
