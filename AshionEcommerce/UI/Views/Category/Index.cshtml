@@ -1,0 +1,39 @@
+﻿@model List<ENTITY.Concrete.Category>
+
+<section class="categories">
+    <div class="container-fluid">
+        <div class="row">
+            @foreach (var item in Model.Take(1))
+            {
+                <div class="col-lg-6 p-0">
+                    <div class="categories__item categories__large__item set-bg"
+                         data-setbg="@item.Image">
+                        <div class="categories__text">
+                            <h1>@item.Name</h1>
+                            <p>
+                                @item.Description
+                            </p>
+                            <a href="#">Şimdi Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            <div class="col-lg-6">
+                <div class="row">
+                    @foreach (var item in Model.Skip(1))
+                    {
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                            <div class="categories__item set-bg" data-setbg="@item.Image">
+                                <div class="categories__text">
+                                    <h4>@item.Name</h4>
+                                    <p>@item.Description</p>
+                                    <a href="#">Şimdi Satın Al</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
