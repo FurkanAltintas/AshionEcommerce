@@ -9,5 +9,12 @@ namespace BLL.Abstract
 {
     public interface IProductService : IGenericService<Product>
     {
+        List<Product> List();
+
+        List<Product> ListGender();
+
+        Product Related(int id);
+
+        Product GetBrand(int id);
     }
 }
