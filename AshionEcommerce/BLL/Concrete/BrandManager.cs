@@ -31,7 +31,7 @@ namespace BLL.Concrete
 
         public void Delete(int id)
         {
-            _brandDal.Delete(id);
+            _brandDal.Delete(null, id);
         }
 
         public Brand Get(Expression<Func<Brand, bool>> filter = null)
