@@ -1,0 +1,14 @@
+﻿using CORE.DataAccess;
+using ENTITY.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL.Abstract
+{
+    public interface ICategoryDal : IEntityRepository<Category>
+    {
+    }
+}
