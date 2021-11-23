@@ -1,0 +1,12 @@
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\bin\Debug\CORE.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\bin\Debug\CORE.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\bin\Debug\CORE.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\bin\Debug\EntityFramework.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\bin\Debug\EntityFramework.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\obj\Debug\CORE.csproj.AssemblyReference.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\obj\Debug\CORE.csproj.CoreCompileInputs.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\obj\Debug\CORE.csproj.CopyComplete
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\obj\Debug\CORE.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\CORE\obj\Debug\CORE.pdb
