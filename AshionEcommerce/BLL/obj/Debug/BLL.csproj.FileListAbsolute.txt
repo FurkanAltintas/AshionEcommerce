@@ -14,3 +14,11 @@ C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BL
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.dll
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\obj\Debug\BLL.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\BLL.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\CORE.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\Ninject.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\CORE.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\CORE.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\BLL\bin\Debug\Ninject.xml
