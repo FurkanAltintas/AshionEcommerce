@@ -1,5 +1,6 @@
-﻿using DAL.Abstract;
-using DAL.Repositories;
+﻿using CORE.DataAccess.EntityFramework;
+using DAL.Abstract;
+using DAL.Concrete;
 using ENTITY.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DAL.EntityFramework
 {
-    public class EfBrandRepository : GenericRepository<Brand>, IBrandDal
+    public class EfBrandRepository : EfEntityRepositoryBase<Brand, Context>, IBrandDal
     {
     }
 }
