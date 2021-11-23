@@ -1,0 +1,17 @@
+﻿@model List<ENTITY.Concrete.Color>
+
+<div class="sidebar__color">
+    <div class="section-title">
+        <h4>Renk</h4>
+    </div>
+    <div class="size__list color__list">
+        @foreach (var item in Model)
+        {
+            <label for="@item.Name">
+                @item.Name
+                <input type="radio" id="@item.Name" value="@item.Name" name="color">
+                <span class="checkmark"></span>
+            </label>
+        }
+    </div>
+</div>
