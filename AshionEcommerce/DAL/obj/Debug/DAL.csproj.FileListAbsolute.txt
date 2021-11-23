@@ -12,3 +12,9 @@ C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DA
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.dll
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.Migrations.MissingXXX.resources
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\obj\Debug\DAL.Migrations.Test.resources
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\CORE.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\CORE.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\DAL\bin\Debug\CORE.dll.config
