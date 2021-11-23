@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xl-3 col-lg-2">
                 <div class="header__logo">
-                    <a href="./index.html"><img src="~/App_Themes/User/ashion-master/img/logo.png" alt=""></a>
+                    <a href="@Url.Action("","")"><img src="~/App_Themes/User/ashion-master/img/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-7">
@@ -11,7 +11,7 @@
                     <ul>
                         <li>
                             <a href="#">Markalar</a>
-                            @Html.Action("Brand","Home")
+                            @Html.Action("Brand", "Home")
                         </li>
                         <li><a href="#">Yeni Sezon</a></li>
                         <li><a href="#">Spor</a></li>
@@ -32,25 +32,31 @@
             </div>
             <div class="col-lg-3">
                 <div class="header__right">
-                    <div class="header__right__auth">
-                        <a href="#">Üye Girişi</a>
-                        <a href="#">Kayıt Ol</a>
-                    </div>
-                    <ul class="header__right__widget">
-                        <li><span class="icon_search search-switch"></span></li>
-                        <li>
-                            <a href="#">
-                                <span class="icon_heart_alt"></span>
-                                <div class="tip">2</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="icon_bag_alt"></span>
-                                <div class="tip">2</div>
-                            </a>
-                        </li>
-                    </ul>
+                    @if (Session["Email"] == null)
+                    {
+                        <div class="header__right__auth">
+                            <a href="/login">Üye Girişi</a>
+                            <a href="/register">Kayıt Ol</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <ul class="header__right__widget">
+                            <li><span class="icon_search search-switch"></span></li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon_heart_alt"></span>
+                                    <div class="tip">2</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon_bag_alt"></span>
+                                    <div class="tip">2</div>
+                                </a>
+                            </li>
+                        </ul>
+                    }
                 </div>
             </div>
         </div>
