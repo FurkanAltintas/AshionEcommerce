@@ -4,3 +4,9 @@ C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\bin\Debug\CORE.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\bin\Debug\EntityFramework.dll
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\bin\Debug\CORE.pdb
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\bin\Debug\CORE.dll.config
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\bin\Debug\EntityFramework.xml
+C:\Users\furka\Documents\GitHub\AshionEcommerce\AshionEcommerce\ENTITY\obj\Debug\ENTITY.csproj.CopyComplete

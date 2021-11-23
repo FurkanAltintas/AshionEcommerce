@@ -44,9 +44,31 @@
   <ItemGroup>
     <Compile Include="Concrete\BaseEntity.cs" />
     <Compile Include="Concrete\Brand.cs" />
+    <Compile Include="Concrete\Category.cs" />
+    <Compile Include="Concrete\Collection.cs" />
+    <Compile Include="Concrete\Color.cs" />
+    <Compile Include="Concrete\Comment.cs" />
+    <Compile Include="Concrete\Discount.cs" />
+    <Compile Include="Concrete\Employee.cs" />
     <Compile Include="Concrete\Gender.cs" />
+    <Compile Include="Concrete\Service.cs" />
+    <Compile Include="Concrete\User.cs" />
     <Compile Include="Concrete\Product.cs" />
+    <Compile Include="Concrete\Kind.cs" />
+    <Compile Include="Concrete\ProductGender.cs" />
+    <Compile Include="Concrete\ProductSize.cs" />
+    <Compile Include="Concrete\Size.cs" />
+    <Compile Include="Concrete\Stock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CORE\CORE.csproj">
+      <Project>{A5FCE986-A7A4-4AB5-9251-DEFA091F9D75}</Project>
+      <Name>CORE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ComplexTypes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
