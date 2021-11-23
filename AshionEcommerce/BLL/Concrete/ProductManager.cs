@@ -31,7 +31,7 @@ namespace BLL.Concrete
 
         public void Delete(int id)
         {
-            _productDal.Delete(id);
+            _productDal.Delete(null, id);
         }
 
         public Product Get(Expression<Func<Product, bool>> filter = null)
@@ -46,11 +46,31 @@ namespace BLL.Concrete
             return _productDal.Get(id);
         }
 
+        public Product GetBrand(int id)
+        {
+            return _productDal.GetBrand(id);
+        }
+
         public List<Product> List(Expression<Func<Product, bool>> filter = null)
         {
             return filter == null ?
                 _productDal.List() :
                 _productDal.List(filter);
+        }
+
+        public List<Product> List()
+        {
+            return _productDal.ListBrand();
+        }
+
+        public List<Product> ListGender()
+        {
+            return _productDal.ListGender();
+        }
+
+        public Product Related(int id)
+        {
+            return _productDal.RelatedProducts(id);
         }
 
         public void Update(Product p)
