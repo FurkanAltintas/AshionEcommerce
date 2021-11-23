@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CORE.Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY.Concrete
 {
-    public class Brand
+    public class Brand : IEntity
     {
         [Key]
         public int Id { get; set; }
