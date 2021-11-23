@@ -1,0 +1,154 @@
+﻿@model ENTITY.Concrete.Product
+
+@{
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+@if (Session["Error"] == null)
+{
+    ViewBag.Title = Model.Title;
+
+    <section class="product-details spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="product__details__pic">
+                        <div class="product__details__slider__content">
+                            <div class="product__details__pic__slider owl-carousel">
+                                <img data-hash="product-1" class="product__big__img" src="@Model.Image" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product__details__text">
+                        <h3>@Model.Title <span>Marka: @Model.Brand.Name</span></h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span>( 138 reviews )</span>
+                        </div>
+                        @if (Model.CampaignDiscount == 0)
+                        {
+                            <div class="product__details__price">$ @Model.Price </div>
+                        }
+                        else
+                        {
+                            <div class="product__details__price">$ @Model.CampaignDiscount <span>$ @Model.Price</span></div>
+
+                        }
+                        <p>
+                            @Model.Description
+                        </p>
+                        <div class="product__details__button">
+                            <div class="quantity">
+                                <span>Miktar:</span>
+                                <div class="pro-qty">
+                                    <input type="text" value="1">
+                                </div>
+                            </div>
+                            <a href="#" class="cart-btn"><span class="icon_bag_alt"></span> Sepete Ekle</a>
+                            <ul>
+                                <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                                <li><a href="#"><span class="icon_adjust-horiz"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__details__widget">
+                            <ul>
+                                <li>
+                                    <span>Kullanılabilirlik:</span>
+                                    <div class="stock__checkbox">
+                                        <label for="stockin">
+                                            Stokta var
+                                            <input type="checkbox" id="stockin">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <span>Mevcut Renk:</span>
+                                    <div class="color__checkbox">
+                                        <label for="red">
+                                            <input type="radio" name="color__radio" id="red" checked>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label for="black">
+                                            <input type="radio" name="color__radio" id="black">
+                                            <span class="checkmark black-bg"></span>
+                                        </label>
+                                        <label for="grey">
+                                            <input type="radio" name="color__radio" id="grey">
+                                            <span class="checkmark grey-bg"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                
+                                @Html.Action("ProductSize", "Size", new { id = Model.Id })
+
+                                <li>
+                                    <span>Kargo:</span>
+                                    <p>Ücretsiz Kargo</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="product__details__tab">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Ürün Bilgisi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Teslimat ve Değişim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Müşteri Yorumları ( 2 )</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                @Html.Raw(Model.Information)
+                            </div>
+                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                <p>Siparişinizi kargoya teslim etme süremiz 2 ila 5 iş günüdür. Tüm siparişleriniz MNG kargo veya By Express kargo ile kapınıza kadar 2 ila 3 iş gününe kadar teslim edilir. Değişimler ürün teslim alındıktan sonra ilk 14 gün içinde gerçekleştirilir.</p>
+                            </div>
+                            <div class="tab-pane" id="tabs-3" role="tabpanel">
+                                @Html.Action("Index", "Comment", new { id = Model.Id })
+
+                                @Html.Action("Add", "Comment", new ENTITY.Concrete.Comment()
+                                {
+                                    ProductId = Model.Id
+                                })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="related__title">
+                        <h5>İLGİLİ ÜRÜNLER</h5>
+                    </div>
+                </div>
+                @Html.Action("RelatedProducts","Product", new { id = Model.Id})
+            </div>
+
+        </div>
+    </section>
+}
+else
+{
+    ViewBag.Title = "Sayfa Bulunamadı";
+
+    <div class="text-center" style="margin-top: 207px; margin-bottom: 207px;">
+        <h2><b>ÜZGÜNÜZ</b></h2>
+        <p>Aradığınız sayfaya ulaşılamadı.</p>
+    </div>
+}
