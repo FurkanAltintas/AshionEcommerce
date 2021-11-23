@@ -11,6 +11,7 @@ namespace UI.Controllers
     public class HomeController : Controller
     {
         BrandManager brandManager = new BrandManager(new EfBrandRepository());
+
         // GET: Home
         public ActionResult Index()
         {
